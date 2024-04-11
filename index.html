@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ProgramandoDeFormaSimples</title>
+    <style>
+        body {
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+
+            .center.menu-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu {
+                margin-top: 20px;
+            }
+
+            .text-chamada h1 {
+                font-size: 24px;
+            }
+
+            .sobre-nosso-curso {
+                padding: 20px;
+            }
+
+            .video-princi {
+                width: 100%;
+                overflow: hidden;
+            }
+
+            .video-princi video {
+                width: 100%;
+                height: auto;
+            }
+
+            .center.sobrecurso-container {
+                flex-direction: column;
+            }
+
+            .nosso-youtube {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <header>
+            <div class="center menu-container">
+                <div class="logo">
+                    <h3>Programando <br>De forma simples<br></h3>
+                </div>
+                <div class="menu">
+                    <a class="active-menu" href="https://www.youtube.com/watch?v=eY82QezLnbg" target="_blank">Sobre o curso</a>
+                    <a href="https://www.instagram.com/programandodeformasimples/" target="_blank">Mídia Sociais</a>
+                </div>
+            </div>
+        </header>
+        <div class="text-chamada">
+            <h1> </h1>
+            <h3></h3>
+        </div>
+    </section>
+
+    <section class="sobre-nosso-curso">
+        <h3>Nós vamos te mostrar que programar é SIMPLES</h3>
+        <p>Com nosso mini curso em C++, iremos te mostrar de uma forma simples, como aprender. <br>Não perca essa oportunidade, é de GRAÇA.</p>
+        <div class="video-princi">
+            <video controls width="1000" autoplay muted poster="">
+                <source src="./assets/PRIMEIROVIDEO.mkv">
+                <source src="./assets/PRIMEIROVIDEO.mp4">
+                <source src="./assets/PRIMEIROVIDEO.mov">
+            </video>
+        </div>
+        
+        <div class="center sobrecurso-container">
+            <div class="nosso-youtube">
+                <a href="https://www.youtube.com/channel/UCn5dDmOcDgI1F10cO1x3wZg" target="_blank">
+                    <img src="css/logodoprojeto.png">
+                </a>
+                <h3>Acesse nossos vídeos</h3>
+                <p>Inscreva-se no nosso canal!</p>
+            </div>
+            <div class="nosso-youtube">
+                <a href="https://www.instagram.com/programandodeformasimples/" target="_blank">
+                    <img src="css/logoinsta.webp">
+                </a>
+                <h3>Nos siga no Instagram</h3>
+                <p>Siga nossa rede social</p>
+            </div>
+            <div class="nosso-youtube">
+                <img src="css/feedback.jpg">
+                <h3>Envie seu feedback pelo nosso E-mail!</h3>
+                <p>@programandodeformasimplessimpl@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <footer><p>@programandodeformasimples</p></footer>
+</body>
+</html>
